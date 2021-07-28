@@ -1,0 +1,14 @@
+{
+	"name": "spline",
+	"url" : "https://github.com/tizilogic/spline",
+	"license": "MIT",
+	"tags": ["cross", "game"],
+	"description": "Spline/Curve library",
+	"version": "0.0.1",
+	"releasenote": "Initial release.",
+	"contributors": ["tcdude"],
+	"dependencies": {
+		"kha": ""
+	},
+	"classPath": "Sources"
+}
