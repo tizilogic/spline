@@ -59,6 +59,14 @@ class Spline {
         };
     }
 
+    /**
+     * Return a point on a cubic hermite spline
+     * @param t Value in the range 0..1 or 0..[max knot value]
+     * @param points Array of 2 or more Point2 to connect
+     * @param tangents Array of equal number of tangents for the spline
+     * @param knots Optional enforced values of `t` at provided points
+     * @return Point2
+     */
     public static inline function cubicHermitePoint(t:FastFloat, points:Array<Point2>, tangents:Array<Point2>, ?knots:Array<FastFloat>):Point2 {
         if (t > 0.999999) return points[points.length - 1];
         var n = points.length;    // number or points / tangents / knots
