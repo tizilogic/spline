@@ -6,7 +6,7 @@
 	"description": "Spline/Curve library",
 	"version": "0.0.1",
 	"releasenote": "Initial release.",
-	"contributors": ["Tiziano Bettio"],
+	"contributors": ["tcdude"],
 	"dependencies": {
 		"kha": ""
 	},
